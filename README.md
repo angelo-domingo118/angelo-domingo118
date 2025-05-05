@@ -3,8 +3,10 @@
 </div>
 
 <div align="center">
-  <!-- Adjusted width for the typing SVG -->
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00AEFF&center=true&vCenter=true&width=550&lines=Software+Engineer;Laravel+%26+PHP+Specialist;JavaScript+Enthusiast;Building+in+the+Philippines+🇵🇭" alt="Typing SVG" /></a>
+  <!-- Updated Typing SVG URL and simplified text -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00AEFF&center=true&vCenter=true&width=500&lines=Software+Engineer;PHP%2FLaravel+%26+JS+Dev;Based+in+Baguio+PH+%F0%9F%87%B5%F0%9F%87%AD" alt="Typing SVG" />
+  </a>
 </div>
 
 <!-- Profile Views Counter -->
@@ -34,19 +36,19 @@
 <!-- About Me Section -->
 ## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="35"> About Me
 
-Hi there! I'm Angelo, a Web Developer based in Baguio City, Philippines 🇵🇭. I'm passionate about crafting clean, efficient, and user-friendly web applications. My core strength lies in the **PHP/Laravel** and **JavaScript** ecosystems, and I'm actively expanding my skills in **Kotlin** and **TypeScript**.
+Hi there! I'm Angelo, a Web Developer based in Baguio City, Philippines 🇵🇭. I'm passionate about crafting clean, efficient, and user-friendly web applications. My core strength lies in the **PHP/Laravel** and **JavaScript** ecosystems, and I'm actively expanding my skills in **Kotlin**, **TypeScript**, and **Python**.
 
 - 🔭 Currently contributing to **[Facerender-System](https://github.com/angelo-domingo118/Facerender-System)** and **[pantasa.ai](https://github.com/angelo-domingo118/pantasa.ai)**.
 - 🌱 Exploring **API development** best practices and modern **front-end frameworks**.
-- 💡 Let's connect to discuss **web development**, **clean architecture**, or share **Kotlin** resources!
+- 💡 Let's connect to discuss **web development**, **clean architecture**, or share **Kotlin/Python** resources!
 
 <!-- Tech Stack Section -->
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35"> My Tech Stack
 
 <p align="center">
-  <!-- Corrected skill icons list to avoid gaps -->
+  <!-- Added 'python' to the icon list -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,blade,js,ts,html,css,git,mysql,tailwind,react,vue,kotlin,figma,docker,vscode&perline=8" />
+    <img src="https://skillicons.dev/icons?i=php,laravel,js,ts,python,html,css,git,mysql,tailwind,react,vue,kotlin,figma,docker,vscode&perline=8" />
   </a>
 </p>
 
@@ -61,7 +63,7 @@ Hi there! I'm Angelo, a Web Developer based in Baguio City, Philippines 🇵🇭
     </td>
     <!-- Top Languages Card -->
     <td width="50%" valign="top">
-       <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelo-domingo118&layout=compact&theme=tokyonight&langs_count=8&hide_border=true&card_width=450" alt="Angelo Domingo's Top Languages" />
+       <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelo-domingo118&layout=compact&theme=tokyonight&langs_count=8&hide_border=true&card_width=450" alt="Top Languages" />
     </td>
   </tr>
   <tr>
