@@ -25,7 +25,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          USERNAME="arhamkhnz"
+          USERNAME="angelo-domingo118"
 
           # Get a list of public repositories that are not forks
           REPOS=$(curl -H "Authorization: token $GH_PAT" -s "https://api.github.com/user/repos?per_page=100" | jq -r '.[] | select(.fork == false) | .full_name') || echo "Error fetching repositories"
@@ -40,8 +40,8 @@ jobs:
             # Determine the default branch dynamically and clone only that branch
             DEFAULT_BRANCH=$(curl -H "Authorization: token $GH_PAT" -s "https://api.github.com/repos/$REPO" | jq -r '.default_branch')
 
-            # echo "Cloning $REPO (default branch: $DEFAULT_BRANCH)..."
-            git clone --branch "$DEFAULT_BRANCH" --single-branch "$AUTHENTICATED_REPO" "$(basename $REPO)-$DEFAULT_BRANCH" || echo "Failed to clone a repository"
+            echo "Cloning $REPO (default branch: $DEFAULT_BRANCH)..."
+            git clone --branch "$DEFAULT_BRANCH" --single-branch "$AUTHENTICATED_REPO" "$(basename $REPO)-$DEFAULT_BRANCH" || echo "Failed to clone $REPO"
           done
 
           # Run cloc to analyze lines of code, excluding non-source code files
@@ -65,12 +65,13 @@ jobs:
           CSHARP_LINES=$(jq '."C#".code // 0' output/cloc-output.json)
           VUE_LINES=$(jq '."Vuejs Component".code // 0' output/cloc-output.json)
           PHP_LINES=$(jq '.PHP.code // 0' output/cloc-output.json)
-          OTHER_LINES=$((TOTAL_LINES - JS_LINES - TS_LINES - JSX_LINES - PHP_LINES - CSHARP_LINES - VUE_LINES))
+          PYTHON_LINES=$(jq '.Python.code // 0' output/cloc-output.json)
+          OTHER_LINES=$((TOTAL_LINES - JS_LINES - TS_LINES - JSX_LINES - PHP_LINES - CSHARP_LINES - VUE_LINES - PYTHON_LINES))
 
           # Function to format numbers with commas (ensuring proper locale settings)
           format_number() {
             export LC_ALL="en_US.UTF-8"
-            printf "%'d\n" $1
+            printf "%'d\n" $1 2>/dev/null || echo $1
           }
 
           FORMATTED_TOTAL=$(format_number $TOTAL_LINES)
@@ -80,9 +81,12 @@ jobs:
           FORMATTED_CSHARP=$(format_number $CSHARP_LINES)
           FORMATTED_VUE=$(format_number $VUE_LINES)
           FORMATTED_PHP=$(format_number $PHP_LINES)
+          FORMATTED_PYTHON=$(format_number $PYTHON_LINES)
           FORMATTED_OTHER=$(format_number $OTHER_LINES)
 
-          CODE_BLOCK="\`\`\`
+          # Create the code block with proper escaping
+          cat > temp_block.txt << 'EOF'
+          ```
           [ LANGUAGES BREAKDOWN ]
 
           JavaScript   --> $FORMATTED_JS lines
@@ -90,20 +94,41 @@ jobs:
           JSX          --> $FORMATTED_JSX lines
           Vue.js       --> $FORMATTED_VUE lines
           PHP          --> $FORMATTED_PHP lines
+          Python       --> $FORMATTED_PYTHON lines
           C#           --> $FORMATTED_CSHARP lines
           Other        --> $FORMATTED_OTHER lines
 
           [ TOTAL LINES OF CODE: $FORMATTED_TOTAL ]
-          \`\`\`"
+          ```
+
+          *Stats update automatically via GitHub Actions.*
+          EOF
+
+          # Replace variables in the temp file
+          sed -i "s/\$FORMATTED_JS/$FORMATTED_JS/g" temp_block.txt
+          sed -i "s/\$FORMATTED_TS/$FORMATTED_TS/g" temp_block.txt
+          sed -i "s/\$FORMATTED_JSX/$FORMATTED_JSX/g" temp_block.txt
+          sed -i "s/\$FORMATTED_VUE/$FORMATTED_VUE/g" temp_block.txt
+          sed -i "s/\$FORMATTED_PHP/$FORMATTED_PHP/g" temp_block.txt
+          sed -i "s/\$FORMATTED_PYTHON/$FORMATTED_PYTHON/g" temp_block.txt
+          sed -i "s/\$FORMATTED_CSHARP/$FORMATTED_CSHARP/g" temp_block.txt
+          sed -i "s/\$FORMATTED_OTHER/$FORMATTED_OTHER/g" temp_block.txt
+          sed -i "s/\$FORMATTED_TOTAL/$FORMATTED_TOTAL/g" temp_block.txt
 
           # Update README.md by replacing the section between predefined comment markers
-          echo "$CODE_BLOCK" > temp_block.txt
           sed -i '/<!-- LANGUAGES BREAKDOWN START -->/,/<!-- LANGUAGES BREAKDOWN END -->/{
               //!d
               /<!-- LANGUAGES BREAKDOWN START -->/r temp_block.txt
           }' README.md
 
           rm temp_block.txt
+
+          # Debug: Show what we're about to commit
+          echo "=== README.md content around the markers ==="
+          grep -A 20 -B 5 "LANGUAGES BREAKDOWN" README.md || echo "Markers not found in README.md"
+          
+          echo "=== cloc-output.json content ==="
+          cat output/cloc-output.json
 
           git add output/cloc-output.json README.md
           git commit -m "chore: update README and cloc-output.json with latest code stats" || echo "No changes to commit"
