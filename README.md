@@ -42,6 +42,27 @@ Hi there! I'm Angelo, a Web Developer based in Baguio City, Philippines 🇵🇭
 - 🌱 Exploring **API development** best practices and modern **front-end frameworks**.
 - 💡 Let's connect to discuss **web development**, **clean architecture**, or share **Kotlin/Python** resources!
 
+<!-- Code Statistics Section -->
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> Code Statistics
+
+<!-- LANGUAGES BREAKDOWN START -->
+*Stats will be automatically updated by GitHub Actions*
+
+```
+[ LANGUAGES BREAKDOWN ]
+
+JavaScript   --> Loading...
+TypeScript   --> Loading...
+PHP          --> Loading...
+Python       --> Loading...
+Other        --> Loading...
+
+[ TOTAL LINES OF CODE: Loading... ]
+```
+
+*Last updated: Automatically via GitHub Actions*
+<!-- LANGUAGES BREAKDOWN END -->
+
 <!-- Tech Stack Section -->
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35"> My Tech Stack
 
@@ -74,7 +95,6 @@ Hi there! I'm Angelo, a Web Developer based in Baguio City, Philippines 🇵🇭
     </td>
   </tr>
 </table>
-
 
 <!-- GitHub Trophies Section -->
 ## <img src="https://media.giphy.com/media/fYSnHlufsegaAwBICn/giphy.gif" width="35"> GitHub Trophies
