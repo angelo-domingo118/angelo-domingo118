@@ -1,0 +1,93 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.98",
+  "elapsed_seconds"    : 0.442276954650879,
+  "n_files"            : 793,
+  "n_lines"            : 82709,
+  "files_per_second"   : 1792.99416725425,
+  "lines_per_second"   : 187007.256720595},
+"JavaScript" :{
+  "nFiles": 60,
+  "blank": 1287,
+  "comment": 2505,
+  "code": 32952},
+"PHP" :{
+  "nFiles": 179,
+  "blank": 2666,
+  "comment": 2111,
+  "code": 14476},
+"XML" :{
+  "nFiles": 299,
+  "blank": 878,
+  "comment": 234,
+  "code": 8646},
+"Kotlin" :{
+  "nFiles": 145,
+  "blank": 1239,
+  "comment": 312,
+  "code": 7049},
+"Blade" :{
+  "nFiles": 50,
+  "blank": 652,
+  "comment": 113,
+  "code": 5129},
+"Gradle" :{
+  "nFiles": 23,
+  "blank": 102,
+  "comment": 28,
+  "code": 704},
+"YAML" :{
+  "nFiles": 8,
+  "blank": 74,
+  "comment": 102,
+  "code": 389},
+"TOML" :{
+  "nFiles": 7,
+  "blank": 20,
+  "comment": 0,
+  "code": 208},
+"SQL" :{
+  "nFiles": 1,
+  "blank": 21,
+  "comment": 25,
+  "code": 176},
+"TypeScript" :{
+  "nFiles": 3,
+  "blank": 6,
+  "comment": 0,
+  "code": 149},
+"Bourne Shell" :{
+  "nFiles": 1,
+  "blank": 23,
+  "comment": 36,
+  "code": 126},
+"DOS Batch" :{
+  "nFiles": 1,
+  "blank": 21,
+  "comment": 2,
+  "code": 66},
+"Text" :{
+  "nFiles": 4,
+  "blank": 11,
+  "comment": 0,
+  "code": 55},
+"Properties" :{
+  "nFiles": 10,
+  "blank": 0,
+  "comment": 28,
+  "code": 49},
+"INI" :{
+  "nFiles": 1,
+  "blank": 4,
+  "comment": 0,
+  "code": 14},
+"ProGuard" :{
+  "nFiles": 1,
+  "blank": 3,
+  "comment": 18,
+  "code": 0},
+"SUM": {
+  "blank": 7007,
+  "comment": 5514,
+  "code": 70188,
+  "nFiles": 793} }

@@ -46,21 +46,22 @@ Hi there! I'm Angelo, a Web Developer based in Baguio City, Philippines 🇵🇭
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> Code Statistics
 
 <!-- LANGUAGES BREAKDOWN START -->
-*Stats will be automatically updated by GitHub Actions*
-
 ```
 [ LANGUAGES BREAKDOWN ]
 
-JavaScript   --> Loading...
-TypeScript   --> Loading...
-PHP          --> Loading...
-Python       --> Loading...
-Other        --> Loading...
+JavaScript   --> 32,952 lines
+TypeScript   --> 149 lines
+JSX          --> 32,952X lines
+Vue.js       --> 0 lines
+PHP          --> 14,476 lines
+Python       --> 0 lines
+C#           --> 0 lines
+Other        --> 22,611 lines
 
-[ TOTAL LINES OF CODE: Loading... ]
+[ TOTAL LINES OF CODE: 70,188 ]
 ```
 
-*Last updated: Automatically via GitHub Actions*
+*Stats update automatically via GitHub Actions.*
 <!-- LANGUAGES BREAKDOWN END -->
 
 <!-- Tech Stack Section -->
