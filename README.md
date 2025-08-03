@@ -53,12 +53,12 @@ JavaScript   --> 32,973 lines
 TypeScript   --> 149 lines
 JSX          --> 32,973X lines
 Vue.js       --> 0 lines
-PHP          --> 25,167 lines
+PHP          --> 25,250 lines
 Python       --> 0 lines
 C#           --> 0 lines
-Other        --> 44,711 lines
+Other        --> 47,581 lines
 
-[ TOTAL LINES OF CODE: 103,000 ]
+[ TOTAL LINES OF CODE: 105,953 ]
 ```
 
 *Stats update automatically via GitHub Actions.*
