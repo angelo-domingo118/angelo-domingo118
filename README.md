@@ -2,36 +2,66 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00AEFF&height=200&section=header&text=Angelo%20Domingo&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35"/>
 </div>
 
+<h1 align="center">Hey 👋 What's Up?</h1>
+
+###
+
 <div align="center">
-  <!-- Updated Typing SVG URL and simplified text -->
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00AEFF&center=true&vCenter=true&width=500&lines=Software+Engineer;PHP%2FLaravel+%26+JS+Dev;Based+in+Baguio+PH+%F0%9F%87%B5%F0%9F%87%AD" alt="Typing SVG" />
   </a>
 </div>
+
+###
 
 <!-- Profile Views Counter -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=angelo-domingo118&label=PROFILE%20VIEWS&color=00AEFF&style=for-the-badge" alt="profile views" />
 </p>
 
-<!-- Social Links -->
+###
+
 <div align="center">
-  <a href="https://github.com/angelo-domingo118?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-7952B3?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1B27" alt="Repositories"/>
-  </a>
-  <a href="https://www.linkedin.com/in/angelo-domingo-dev-invented/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1B27" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:angelo.d.dev.contact@email.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A1B27" alt="Email"/>
-  </a>
-  <a href="https://my-cool-portfolio-angelo.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1A1B27" alt="Portfolio"/>
-  </a>
+  <img src="https://skillicons.dev/icons?i=php" height="60" alt="php logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=laravel" height="60" alt="laravel logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=js" height="60" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=react" height="60" alt="react logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=vue" height="60" alt="vue logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=python" height="60" alt="python logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=kotlin" height="60" alt="kotlin logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mysql" height="60" alt="mysql logo"  />
 </div>
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+###
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/angelo-domingo-dev-invented/">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
+  <a href="mailto:angelo.d.dev.contact@email.com">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+  </a>
+  <a href="https://my-cool-portfolio-angelo.vercel.app/">
+    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=vercel&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="portfolio logo"  />
+  </a>
+  <a href="https://github.com/angelo-domingo118?tab=repositories">
+    <img src="https://img.shields.io/static/v1?message=Repositories&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="repositories logo"  />
+  </a>
+  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
+</div>
+
+###
 
 <!-- About Me Section -->
 ## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="35"> About Me
@@ -64,19 +94,16 @@ Other        --> 51,298 lines
 *Stats update automatically via GitHub Actions.*
 <!-- LANGUAGES BREAKDOWN END -->
 
-<!-- Tech Stack Section -->
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35"> My Tech Stack
+###
 
-<p align="center">
-  <!-- Added 'python' to the icon list -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,js,ts,python,html,css,git,mysql,tailwind,react,vue,kotlin,figma,docker,vscode&perline=8" />
-  </a>
-</p>
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=angelo-domingo118&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=angelo-domingo118&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+</div>
 
-<!-- GitHub Stats Section - Improved Layout -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> GitHub Stats
+###
 
+<!-- GitHub Stats Cards -->
 <table width="95%" align="center">
   <tr>
     <!-- GitHub Stats Card -->
@@ -88,24 +115,17 @@ Other        --> 51,298 lines
        <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=angelo-domingo118&layout=compact&theme=tokyonight&langs_count=8&hide_border=true&card_width=450" alt="Top Languages" />
     </td>
   </tr>
-  <tr>
-    <!-- Streak Stats Card - Centered Below -->
-    <td colspan="2" align="center">
-       <br> <!-- Optional line break for spacing -->
-       <img align="center" src="https://streak-stats.demolab.com?user=angelo-domingo118&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
-    </td>
-  </tr>
 </table>
 
-<!-- GitHub Trophies Section -->
-## <img src="https://media.giphy.com/media/fYSnHlufsegaAwBICn/giphy.gif" width="35"> GitHub Trophies
+###
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=angelo-domingo118&theme=tokyonight&row=1&column=6&margin-w=15&margin-h=15&no-bg=true&no-frame=true" alt="GitHub Trophies" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/angelo-domingo118/angelo-domingo118/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/angelo-domingo118/angelo-domingo118/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/angelo-domingo118/angelo-domingo118/output/pacman-contribution-graph.svg">
+</picture>
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+###
 
 <!-- Footer -->
 <div align="center">
