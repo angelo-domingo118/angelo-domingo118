@@ -79,16 +79,16 @@ Hi there! I'm Angelo, a Web Developer based in Baguio City, Philippines 🇵🇭
 ```
 [ LANGUAGES BREAKDOWN ]
 
-JavaScript   --> 33,041 lines
-TypeScript   --> 149 lines
-JSX          --> 33,041X lines
+JavaScript   --> 0 lines
+TypeScript   --> 0 lines
+JSX          --> 0X lines
 Vue.js       --> 0 lines
-PHP          --> 27,372 lines
+PHP          --> 0 lines
 Python       --> 0 lines
 C#           --> 0 lines
-Other        --> 59,458 lines
+Other        --> 0 lines
 
-[ TOTAL LINES OF CODE: 120,020 ]
+[ TOTAL LINES OF CODE: 0 ]
 ```
 
 *Stats update automatically via GitHub Actions.*
